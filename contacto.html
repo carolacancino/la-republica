@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>La Répública - Contacto</title>
-  <!-- Inserta tus enlaces aquí -->
+	<meta charset="UTF-8">
+	<title>La Répública - Contacto</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" href="css/blog.css">
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/columnistas.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/contacto.css">
+	
 </head>
+
 <body>
-<!-- Inserta tu código aquí -->
-</body>
-</html>
+	<div class="f-formulario">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-16">
+					<h1 class="h1-contactece">Contactese con nosotros</h1>
+					<p class="p-contacto">Llena este formulario si necesita enviarnos alguna informacion acerca del contenido del sitio web, su funcionalidad, o si tiene alguna propuesta de informacion o mejora para el sitio. Asi mismo, puede hacer llegar a los redactores su opinion acerca de los contenidos de una determinada seccion el cual podra elegir como destinario.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-3">
+					<form action="formulario" class="formulario">
+						<input class="form-control" id="nombre" type="text" placeholder="Nombres Completos">
+						<input class="form-control" id="email" type="text" placeholder="Correo Electronico">
+						
+						<input class="form-control" id="asunto" type="text" placeholder="Telefonos"><p class="opcional">(Opcional)</p>
+					</form>
+					
+					<h3 class="h3-elija">Elija un destinario</h3>
+					<div class="row">
+					<div class="col-md-8 ">
+						<label for="radio">
+							<input type="radio" name="opcion" id="radio1">
+							Sugerencia para el sitio web</label>
+						</div>
+						<div class="col-md-8"><p class="text-right">(Ej: funcionamiento y mejoras para el sitio)</p>
+						</div>
+
+
+						
+						<div class="col-md-8">
+							<label for="formlabel">
+								<input type="radio" name="opcion" id="radio1">
+								Direccion periodistica</label>
+							</div>
+							<div class="col-md-8"><p class="text-right">(Ej: Sugerencia para las notas de prensa)</p>
+							</div>
+							<div class="col-md-8">
+								<label for="formlabel">
+									<input type="radio" name="opcion" id="radio1">
+									Direccion comercial
+								</label>
+							</div>
+							<div class="col-md-8"><p class="text-right">(Ej: Publicidad en diarios o sitios web)</p>
+							</div>
+							<div class="col-md-8">
+								<label for="formlabel">
+									<input type="radio" name="opcion" id="radio1">
+									Cartas al director
+								</label>
+							</div>
+							<div class="col-md-8"><p class="text-right">(Ej:denuncias, comentarios e impresiones)</p>
+							</div>
+							<div class="col-md-8">
+								<label for="formlabel">
+									<input type="radio" name="opcion" id="radio1">
+									Promociones y productos del diario
+								</label>
+							</div>
+							<div class="col-md-8"><p class="text-right">(Ej: (Ej:Promociones, tablet, etc)</p>
+							</div>
+
+							<div class="col-md-8">
+								<label for="formlabel">
+									<input type="radio" name="opcion" id="radio1">
+									Archivo periodistico
+								</label>
+							</div>
+							<div class="col-md-8"><p class="text-right">(Ej: Ediciones impresas/fotos)</p>
+							</div>
+					</div>
+
+							<textarea class="form-control" id="mensaje" type="text" placeholder="Mensaje:"></textarea>
+
+							<button class="btn"><p class="enviar">ENVIAR</p></button>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>
+
