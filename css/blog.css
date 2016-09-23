@@ -1,1 +1,33 @@
-/* Inserta tu código de la página blog acá */
+.cajas-blog{
+	border: solid #BBB5B5 1px;
+	padding: 20px;
+	width: 225px;
+	height: 208px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	
+}
+.cajas-mini{
+	background-color: #BBB5B5;
+	padding-bottom: 5px;
+	height: 72px;
+}
+.avatar{
+	border:solid white 3px;
+	margin-top: 5px;
+}
+
+.lo-ultimo{
+	color: #BBB5B5; 
+}
+.libros{
+	padding: 5px;
+}
+.none{
+	margin-bottom: -5px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.caja-mala{
+	font-size: 15.2px;
+}
