@@ -1,110 +1,95 @@
 
-.ew{
-	border-bottom: 2px solid black; 
-	margin-top: 1%;
-}
 .diminuto{
 	font-size: 8px;
+	padding-top: 4%;
 }
 .titema{
-	font-size: 20px;
+	font-weight: bold;
+	font-size: 18px;
 	margin-top: -9px;
 }
 .emma{
-	margin-left: 20%;
+	font-size: 16px;
 }
-.sobre{
-	width: 21%;
-    margin-top: 6%;
+.icon{
+	margin-left: -9%;
 }
-.h4sus{
-	font-size: 90%;
-    padding-bottom: 30%;
-    position: relative;
-    top: 39px;
+.iconos{
+	display: table-cell;
+	text-decoration: none;
+	padding: 2%;
 }
+.texto{
+	font-size: 11px;
+}
+.fa .fa-youtube-play{
+	color: #D00808;
+}
+.lineagris{
+	padding: 1%;
+	padding-bottom: 3%;
+	border-bottom: 2px solid #7b7a7a;
+	width: 100%;
+}
+/*columna derecha*/
 .bullet{
 	background-image: url(../image/trama_square.jpg);
-	max-width: 100%;
-	height: 178px;
+	height: 235px;
 }
 .center-block{
 	background-color: white;
 	width: 91%;
-    height: 82%;
-    margin-top: -22%;
+	height: 82%;
+	margin-top: -21%;
 }
+.h4sus{
+	font-size: 90%;
+	padding-bottom: 30%;
+	position: relative;
+	top: 66px;
+}
+.sobre{
+	width: 21%;
+	margin-top: 4%;
+}
+
 form{
-	margin-top: -14%;
 	width: 86%;
-    margin-left: 9%;
+	margin-left: 9%;
 }
 .boton{
 	width: 93%;
-    height: 29px;
-    font-size: 11px;
-    background-color: #D00808;
+	height: 29px;
+	font-size: 11px;
+	background-color: #D00808;
+}
+.btNoticias{
+	margin-left: 33%;
+	width: 30%;
+	margin-top: 2%;
 }
 
-/*iconos*/
-.face{
-	margin-left: 253px;
-	margin-top: -15%;
-}
-.tw{
-	margin-top: -15%;
-}
-.g{
-	margin-top: -15%;
-}
-/****/
-.punto{
-	margin-left: 2%;
-    margin-top: -16%;
-}
-.comentario{
-	margin-top: -8%;
-    margin-left: 31%;
-}
-.diez{
-	font-size: 11px;
-	margin-top: -5%;
-    margin-left: 56%;
-}
-.punto2{
-	margin-left: 59%;
-    margin-top: -8%;
-}
-.politica{
-	font-size: 11px;
-    margin-top: -6%;
-    margin-left: 61%;
-}
-.punto3{
-	
-	margin-left: 69%;
-	margin-top: -8%;
-}
-.youtube{
-	margin-left: 72%;
-	margin-top: -7%;
-	color: #D00808;
-}
 /*Aweita*/
 .borde{
 	border: 1px solid #7f7575;
-	margin-top: -300px;
+	margin-top: 16%;
 }
 .fut{
-	padding-top: 15px;
+	padding-top: 17px;
+}
+.logo_aweita{
+	padding: 5%;
 }
 .roman{
-	width: 80px;
-    border: 2px solid #7f7575;
+	width: 115%;
+	border: 2px solid #7f7575;
 }
 .jr{
-	margin-left: 25px;
-    font-size: 10px;
+	text-align: left;
+	font-size: 10px;
+}
+.masAweita{
+	padding-top: 10%;
 }
 .morado{
 	width: 104px;
@@ -114,22 +99,46 @@ form{
 	color:#810E75;
 }
 .fotodes{
-	    margin-top: -190px;
+	margin-top: 20%;
+	border: 1px solid #7b7a7a;
+	max-width: 100%;
 }
 .nasca{
-	margin-top: -132px;
+	margin-top: 5%;
+	font-weight: bold;
+	margin-bottom: 15%;
 }
 .pueblo{
 	margin-left: 77%;
-	    margin-top: -20%;
+	margin-top: -20%;
 }
 .notrelacionadas{
-	width: 80px;
-    border: 2px solid #7f7575;
-        margin-left: -14px;
+	width: 100%;
+	border: 2px solid #7f7575;
 }
 .uchura{
 	font-weight: bold;
-	font-size: 10px;
+	font-size: 11px;
+}
+.uch{
+	padding: 2%;
+}
+.lineamorada{
+	border-bottom: 4px solid #960F7E;
+	margin-left: 22%;
+	width: 57%;
+}
+.titfotos{
+	border:1px solid #7b7a7a;
+	background-color: #7b7a7a;
+	color: white;
+	width: 63%;
+	font-size: 13px;
 	margin-left: 18%;
+	margin-top: 19%;
+}
+.lineafotos{
+	border-bottom: 4px solid #7b7a7a;
+	width: 100%;
+	margin-top: -8%;
 }
