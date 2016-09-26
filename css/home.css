@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* banner top */
 .banner-top{
    width: 100%;
@@ -248,3 +249,71 @@ top: 2px;
 	color:#ffffff;
 	border-radius:20px;
 }
+=======
+
+.cont-rojo{
+	background: #B40404;
+	width: 149px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+}
+
+.h3-columnistas{
+	color: #FFFFFF;
+	position: relative;
+	top: -48px;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.columnistas{
+	background:#D8D8D8;
+	width: 100%;
+	border-top: 4px solid #B40404;
+	height: 3250%;
+	padding-bottom: 56px;
+}
+
+
+.mariovargas{
+	font-size: 11px;
+	text-align: center;
+
+
+}
+
+.mariovargas1{
+	font-size: 11px;
+	margin-left: 11px;
+	text-align: center;
+}
+
+.megarenuncia{
+	font-size: 15px;
+	margin-top: -4px;
+	text-align: center;
+}
+
+.megarenuncia1{
+	font-size: 15px;
+	margin-top: -4px;
+	margin-left: 6px;
+	text-align: center;
+}
+
+.foto{
+	border: 3px solid white;
+	width: 100px;
+}
+
+.foto1{
+	border: 3px solid white;
+	width: 100px;
+	position: relative;
+	left: 9px;
+}
+
+>>>>>>> 81c6e305027363ea28cd645ba7d0b69606f895fd
