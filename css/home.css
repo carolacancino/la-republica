@@ -386,6 +386,8 @@ form{
 	width: 93%;
 	height: 29px;
 	font-size: 11px;
+	margin-left: -130%;
+	margin-top: -1%;
 	background-color: #D00808;
 }
 .btNoticias{
