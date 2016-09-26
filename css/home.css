@@ -102,9 +102,6 @@
 	margin-top: 15px;
 }
 
-.border { 
-	border: 1px solid black;
-  } 
 
 .logo { padding-top: 14px;}
 
@@ -130,5 +127,194 @@
 }
 a:hover {background-color: blue; }
 
-.btn {  background-color: yellow;}
+
+
+.foto1{
+	background-image: url(../image/img_grid_principal.jpg);
+	height: 500px;
+	width: 460px;
+	margin-right: 20px;
+}
+.titulo-principal{
+	padding: 20px;
+}
+.principal-foto{
+	padding-top: 320px;
+	padding-left: 5px;
+	color: white;
+	font-size: 30px;
+}
+.google{
+	width: 25px;
+	height: 26px;
+}
+.foto2{
+	background-image: url(../image/img_grid_secundario.jpg);
+	background-size:cover;
+	margin-bottom: 20px;
+	height: 240px;
+	color: white;
+	padding-top: 130px;
+}
+.foto3{
+	background-image: url(../image/img_grid_secundario.jpg);
+	background-size: cover;
+	position: relative;
+	height: 240px;
+	color: white;
+	padding-top: 130px;
+	margin-top: 20px;
+}
+.secundario-foto{
+	font-size: 18px;
+}
+.caja2{
+	margin-bottom: 40px;
+}
+.texto{
+	color: white;
+}
+.pelota{
+	padding:10px;
+}
+.no-baja{
+	padding-top: 20px;
+}
+.ico-sprites{
+	width: 15px;
+	height: 16px;
+}
+.texto-tit{
+	padding-bottom: 20px;
+
+}
+/*seccion 2*/
+.caja{
+	height: 260px;
+	border: solid #BBB5B5 1px;
+	width: 302px;
+	margin:10px;
+	text-align:center;
+}
+.futb{
+	background-image: url(../image/img_especiales.jpg);
+	background-repeat: no-repeat;
+	height: 180px;
+	width: 300px;
+	margin-left: -10px;
+	position: relative;	
+}
+.caja4-fut{
+	position: relative;
+	margin-top: -310px;
+}
+.caja5-fut{
+	position: relative;
+	margin-top: -310px;
+	margin-left: 333px;
+}
+.text-pase{
+	color: white;
+	padding-top: 130px;
+	padding-bottom: 5px;
+}	
+.mercado{
+	color: #ED0A2F;
+	font-family: 'Open Sans', sans-serif;
+}
+.pases{
+	color:#504D4D;
+	padding-top: 5px;
+}
+.negro{
+	color: #f3e8e8;
+border: 1px solid;
+padding: 10px;
+position: relative;
+top: 10px;
+background-color: black;
+}
+.pelo{
+	margin-top: 15px;
+}
+
+
+
+.logo { width: 300px;
+        height: 100px;
+        padding-top: 30px;
+    }
+
+.rojo { 
+	border: 1px solid black;
+width: 130px;
+text-align: center;
+background-color: #F41618;
+color: #EDFAFF;
+position: relative;
+left: 110px;
+bottom: 50px;
+padding: 10px;
+   }
+.bor {border: 1px solid black;
+border-bottom: 3px solid #FF0B0E;
+padding-top: 30px;
+position: relative;
+top: 20px;
+       }   
+.caja { border: 1px solid black;
+	    height:  70px;
+}
+
+.edit { 
+	width: 300px;
+    height: 140px;
+    border: 1px solid
+}
+.rial { border: 1px solid black;
+	    width: 100px;
+
+}
+a { background-color:blue;}
+	
+	
+   
+.cara { position: relative;
+left: 40px;
+bottom: 160px;
+width: 70px;
+
+} 
+    }
+
+.btn {  background-color:#91181E;
+	    
+}
+.w { padding-top: 0px;}
+
+h6{ font-size: 12px;
+text-align: center;
+position: relative;
+bottom: 25px;}
+
+.caja2 { margin-bottom: 40px;
+width: 30px;
+position: relative;
+top: 20px;
+height: 110px;}
+
+.medio{ position: relative;
+bottom: 120px;
+left: 37px;}
+
+.plomo { 
+	background-color: #8D918C;
+padding: 9px;
+width: 837px;
+position: relative;
+right: 62px;
+top: 2px;
+}
+
+
 
