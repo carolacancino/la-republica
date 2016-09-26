@@ -142,3 +142,45 @@ form{
 	width: 100%;
 	margin-top: -8%;
 }
+
+/*previofooter*/
+.fondola_rep{
+	background-color: #DBDADA;
+	margin-top: 2%;
+}
+.logo_glr{
+	padding-top: 40%;
+}
+.glr{
+	font-size: 18px;
+}
+.direc{
+	margin: 0 0 0px;
+}
+.der{
+	padding: 3%;
+	font-size: 12px;
+}
+.lineaRecta{
+	margin-left: 27%;
+	margin-top: 4%;
+	width: 1px;
+	height: 325px;
+	border: 1px inset #fcf8e3;;
+	background-color: #b3b3b3;
+}
+ul.listado{
+	padding-top: 17%;
+	font-size: 10px;
+	list-style: none;
+	text-decoration: none;
+	
+}
+.lista{
+	color: #757575;
+}
+.divs{
+	margin-left: 27%;
+    position: relative;
+    margin-top: -36%;
+}
