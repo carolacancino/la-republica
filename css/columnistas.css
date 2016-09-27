@@ -115,6 +115,49 @@ i{
     margin-left: -1%;
         margin-top: 0%;
 }
+/**emely**/
+.columnistas1{
+    font-size:60px;
+}
+
+.lo-ultimo{
+    font-size:18px;
+    color:#848484;
+}
+
+.caja{
+    
+    margin-top:30px;
+    border:2px solid #848484;
+    padding: 7%;
+}
+
+.cuadro-gris{
+    border: 3px solid white;
+    background-color:#D8D8D8;
+    padding:20px;
+}
+
+.img-colum{
+    border:3px solid #ffffff;
+}
+
+.dios-muerto{
+
+    height:128px;
+}
+
+.texto{
+    margin-top:6%;
+    font-size:12px;
+    color:#585858;
+    margin-left:8px;
+}
+.texto-1{
+    color:#084B8A;
+    margin-left:8px;
+}
+/**fin emely**/
 
 /*previofooter*/
 .fondola_rep{

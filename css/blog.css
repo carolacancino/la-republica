@@ -119,6 +119,40 @@ i{
 .banner_h{
 	margin-bottom: 2%;
 }
+/*carola blog*/
+.arriba{
+    color: gray;
+    font-weight: 400;
+    margin-right: 5px;
+    float: left;
+}
+.caja{
+    border: 1px solid #E4E3E3;
+    padding: 30px 12px 20px 12px;
+    margin-bottom:20px;
+}
+.fecha{
+    font-size: 12px;
+}
+.elgol{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.avatar{
+    float: left;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+.mini{
+    background-color: #DADCED;
+    padding: 12px 0px 20px 15px;
+}
+.conte1{
+    margin: 0;
+}
+.conte2{
+    color:#7D7B7B;
+/*fin blog carola*/
 
 
 /*previofooter*/

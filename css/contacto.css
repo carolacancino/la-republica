@@ -116,6 +116,43 @@ i{
         margin-top: 0%;
 }
 
+/*Maria*/
+
+.h1-contactece{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.form-control{
+    margin-top: 20px;
+    border-top: 1px solid #585858;
+    border-left: 1px solid #585858;
+    background: #CED8F6;
+    position: relative;
+    width: 100%;
+    
+}
+
+
+.bbt{
+    background: #000000;
+    width: 228px;
+    margin-top: 29px;
+    height: 34px;
+    position: relative;
+    left: 156px;
+    
+    }
+
+.enviar{
+    color: #FFFFFF;
+
+    
+    }
+/*fin maria*/
+
 /*previofooter*/
 .fondola_rep{
     background-color: #DBDADA;
