@@ -1,131 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>La Répública - Blog</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/blog.css">
+  <meta charset="UTF-8">
+	<link rel="stylesheet" href="css/blog.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/columnistas.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/contacto.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/home.css">
+  <title>La Répública - Blog</title>
+  <!-- Inserta tus enlaces aquí -->
 </head>
 <body>
-	<header>
-		<div class="container blog">
+<header>
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12 col-xs-16">
-					<h1 class="blog-titulo">Blogs</h1>
-					<h3 class="lo-ultimo">LO ULTIMO EN BLOGS <img src="image/double-arrow-bottom.png"></h3>
+				<div class="col-md-16 col-xs-16">
+					<img class="banner_top img-responsive" src="image/banner_top.jpg" alt="">
 				</div>
 			</div>
-		</div>
+			<div class="row">
+				<div class="col-md-8">
+					<ul class="menu1" ">
+						<li class="disabled"><a class="menu" href="http://www.libero.pe/">LIBERO.PE</a></li>
+						<li class="disabled"><a class="menu" href="http://www.elpopular.pe/">ELPOPULAR.PE</a></li>
+						<li class="disabled"><a class="menu" href="http://fundacionmohme.org/">FUNDACION GUSTABO MOHME LLONA</a></li>
+					</ul>
+				</div>
+				<div class="col-md-8 col-xs-16">
+					<button type="button" class="suscribete btn btn-danger btn-xs">SUSCRÌBETE AL BOLETÌN</button>
+					<i class="facebook fa fa-facebook" aria-hidden="true"></i>
+					<i class="twitter fa fa-twitter" aria-hidden="true"></i>
+					<i class="google fa fa-google-plus" aria-hidden="true"></i>
+					<i class="mail fa fa-envelope" aria-hidden="true"></i>
+					<i class=" antena fa fa-rss" aria-hidden="true"></i>
+					<input type="text" class="search form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status" placeholder="BUSCAR">
+					<i class="glyphicon glyphicon-search"></i>
+					<span id="inputSuccess4Status" class="sr-only">(success)</span>
+				</div>
+			</div>
+		</div><!--Fin container-fluid-->
 	</header>
-	<section class="blogers">
+	<section class="lrp"><!---Section La Republica-->
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-xs-8 cajas-blog">
-					<h6 class="text-center libros">Lunes 14 de Julio del 2015</h6>
-					<h4 class="text-center libros">El gol de la muerte</h4>
-					<div class="row cajas-mini">
-						<div class="col-md-5 col-xs-16 ">
-							<img class="avatar" src="image/blog_avatar_01.jpg">
-						</div>
-						<div class="col-md-5 col-xs-16">
-							<h5 class="none">BLOG</h5>
-							<h6 class="none">LIBROS</h6>
+				<div class="col-md-6 col-xs-16">
+					<img src="image/logo-la-republica.jpg" class="logo_larep img-responsive">
+					</div>
+					<div class="col-md-5 col-xs-16">
+						<div class="colpe">
+							<button type="button" class="dom btn btn-danger btn-xs">
+								DOMINGO
+							</button>
+							<p class="lideresa text-center">
+							HABLA LA LIDERESA DEL NACIONALISMO
+							</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-4 col-xs-16 cajas-blog">
-					<h6 class="text-center libros">Lunes 14 de Julio del 2015</h6>
-					<h4 class="text-center libros">El gol de la muerte</h4>
-					<div class="row cajas-mini">
-						<div class="col-md-5 col-xs-16 ">
-							<img class="avatar" src="image/blog_avatar_02.jpg">
+					<div class="col-md-5 col-xs-16">
+						<img src="image/img_editorial_text.jpg" class="img-responsive fedit">
+						<div class="colpe2 text-center">
+							<p>
+								<b>La corrupcion,los orígenes</b>
+							</p>
+							<p> <em>por: </em> Gustavo Mohme llona</p>
 						</div>
-						<div class="col-md-5 col-xs-16">
-							<h5 class="none">BLOG</h5>
-							<h6 class="none">Novelas</h6>
-						</div>
+						<img src="image/img_author.jpg" class="img-responsive fautor">
+					</div>
+			</div><!---Fin Row-->
+			<div class="row">
+				<div class="col-md-16 col-xs-16 mrojo">
+					<div class="btn-group">
+						<a class="btn btn-xs dropdown-toggle " data-toggle="dropdown" href="#">
+							POLÍTICA
+							<span class="caret"></span>
+						</a>
+						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown" href="#">
+							ECONOMÍA
+							<span class="caret"></span>
+						</a>
+						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown" href="#">
+							SOCIEDAD
+							<span class="caret"></span>
+						</a>
+						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown" href="#">
+							ELEC. REGIONALES
+							<span class="caret"></span>
+						</a>
+						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown" href="#">
+							DEPORTES
+							<span class="caret"></span>
+						</a>
+						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown" href="#">
+							CHAMPIONS L.
+							<span class="caret"></span>
+						</a>
+						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown" href="#">
+							ESPECTÁCULOS
+							<span class="caret"></span>
+						</a>
+						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown" href="#">
+							ED. IMPRESA
+							<span class="caret"></span>
+						</a>
+						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown" href="#">
+							REGIONALES
+							<span class="caret"></span>
+						</a>
+						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown" href="#">
+							MÁS SECCIONES
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<!-- dropdown menu links -->
+						</ul>
 					</div>
 				</div>
-				<div class="col-md-4 col-xs-16 cajas-blog">
-					<h6 class="text-center libros">Lunes 14 de Julio del 2015</h6>
-					<h4 class="text-center libros">¿Cual es tu favorito?</h4>
-					<div class="row cajas-mini">
-						<div class="col-md-5 col-xs-16 ">
-							<img class="avatar" src="image/blog_avatar_03.jpg">
-						</div>
-						<div class="col-md-5 col-xs-16">
-							<h5 class="none">BLOG</h5>
-							<h6 class="none">Decimas Cosas</h6>
-						</div>
-					</div>
+			</div><!---Fin Row-->
+			<div class="row"><!---Inicio menu gris-->
+				<div class="col-md-16 col-xs-16 gris">
+					<a class="mainGris negro" href="#">TEMAS DEL DIA</a>
+					<a class="mainGris" href="#">Globos de Oro</a>
+					&bull;
+					<a class="mainGris" href="#">Youtube</a>
+					&bull;
+					<a class="mainGris" href="#">PNP</a>
+					&bull;
+					<a class="mainGris" href="#">Charlie Hebdo</a>
+					&bull;
+					<a class="mainGris" href="#">Globos de Oro2</a>
+					&bull;
+					<a class="mainGris" href="#">Youtube2</a>
+					&bull;
+					<a class="mainGris" href="#">PNP2</a>
+					&bull;
+					<a class="mainGris" href="#">Charlie Hebdo2</a>
+					&bull;
 				</div>
-				<div class="col-md-4 col-xs-16 cajas-blog">
-					<h6 class="text-center libros">Lunes 14 de Julio del 2015</h6>
-					<h4 class="text-center libros">El gol de la muerte</h4>
-					<div class="row cajas-mini">
-						<div class="col-md-5 col-xs-16 ">
-							<img class="avatar" src="image/blog_avatar_01.jpg">
-						</div>
-						<div class="col-md-5 col-xs-16">
-							<h5 class="none">BLOG</h5>
-							<h6 class="none">LIBROS</h6>
-						</div>
-					</div>
+			</div><!---Fin Row-->
+			<div class="row">
+				<div class="col-md-16 col-xs-16 banner_h">
+					<img src="image/banner-header.jpg" alt="">
 				</div>
-				<div class="col-md-4 col-xs-16 cajas-blog">
-					<h6 class="text-center libros">Lunes 14 de Julio del 2015</h6>
-					<h5 class="text-center libros caja-mala">Tengo las manos llenas...</h5>
-					<div class="row cajas-mini caja-mala">
-						<div class="col-md-5 col-xs-16 ">
-							<img class="avatar" src="image/blog_avatar_02.jpg">
-						</div>
-						<div class="col-md-5 col-xs-16">
-							<h5 class="none">BLOG</h5>
-							<h6 class="none">Novelas</h6>
-						</div>
+			</div><!---Fin Row-->
+		</div><!---Fin Container Section La Republica-->
+	</section><!---Fin Section La Republica-->
+
+	<section class="fondola_rep"> <!--PreviaFooter-->
+		<div class="container"><!-- Inicio Container PreviaFooter  -->
+			<div class="row">
+				<div class="col-md-4">
+					<img class="logo_glr" src="image/logo-grupo-la-republica.png" alt="">
+					<h1 class="glr">
+						Grupo La Républica Digital
+					</h1>
+					<p class="direc">Jr. Camaná 320 Cercado de Lima </p>
+					<p class="direc">Teléfono: 711-6000</p>
+					<p class="direc">(Central Teléfonica)</p>
+					<p class="der">Todos los derechos reservados - 2015</p>
+				</div><!--fin col4-->
+				<div class="lineaRecta"></div>
+				<div class="col-md-11 divs">
+					<div class="row">
+						<div class="col-md-4"><!--primera col-->
+							<ul class="listado">
+								<li>
+									<a class="lista"  href="#"> Roger Federer</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> SBS</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Scarlett Johansson</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Scotiabank</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Selena Gómez</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Spiderman</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Sporting Cristal</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Sunat</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Teléfonica del Perú</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> The Walking Dead</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Twitter</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Universidad Cesar</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Vallejo</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Universidad San Martin</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Universitario de Deportes</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Xbox</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> YouTube</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Bayern Múnich</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Bayern Múnich</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> BBVA</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> Xbox</a>
+								</li>
+								<li>
+									<a class="lista" href="#"> BCP</a>
+								</li>
+							</ul>
+						</div><!--Fin primera col-->
+						<div class="col-md-4"><!--segunda col-->
+							<ul class="listado">
+								<li>
+									<a href="#" class="lista">Al fondo hay sitio </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Alejandro Toledo </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Alianza Lima </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Alianza Lima </a>
+								</li>
+								<li>
+									<a href="#" class="lista"> Banco de la Nacion </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Barack Obama </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Universidad Cesar </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Vallejo </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Universidad San Martin </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Barcelona </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Bayern Munich </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Bayern Munich </a>
+								</li>
+								<li>
+									<a href="#" class="lista"> BBVA</a>
+								</li>
+								<li>
+									<a href="#" class="lista">Xbox </a>
+								</li>
+								<li>
+									<a href="#" class="lista">BCP </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Batman </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Bayern Munich </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Bayern Munich </a>
+								</li>
+								<li>
+									<a href="#" class="lista">BBVA </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Xbox </a>
+								</li>
+								<li>
+									<a href="#" class="lista">BCP </a>
+								</li>
+							</ul>
+						</div><!--Fin segunda col-->
+						<div class="col-md-4"><!--tercera col-->
+							<ul class="listado">
+								<li>
+									<a href="#" class="lista">One Direction </a>
+								</li>
+								<li>
+									<a href="#" class="lista">ONPE </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Pablo Escobar </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Paolo Guerrero </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Pensión 65</a>
+								</li>
+								<li>
+									<a href="#" class="lista">PNP </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Precio del dólar </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Universidad Cesar </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Vallejo </a>
+								</li>
+								<li>
+									<a href="#" class="lista"> Universidad San Martín</a>
+								</li>
+								<li>
+									<a href="#" class="lista">Premier League </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Bayern Munich </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Bayern Munich </a>
+								</li>
+								<li>
+									<a href="#" class="lista">BBVA </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Xbox </a>
+								</li>
+								<li>
+									<a href="#" class="lista">BCP </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Proyecto Conga </a>
+								</li>
+								<li>
+									<a href="#" class="lista">PUCP </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Real Madrid </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Redes sociales </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Reniec </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Robert Pattinson </a>
+								</li>
+							</ul>
+						</div><!--Fin tercera col-->
+						<div class="col-md-4"><!--cuarta col-->
+							<ul class="listado">
+								<li>
+									<a href="#" class="lista">Al fondo hay sitio </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Alejandro Toledo </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Alianza Lima </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Alianza Lima </a>
+								</li>
+								<li>
+									<a href="#" class="lista"> Banco de la Nacion </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Barack Obama </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Universidad Cesar </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Vallejo </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Bayern Munich </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Bayern Munich </a>
+								</li>
+								<li>
+									<a href="#" class="lista">BBVA </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Xbox </a>
+								</li>
+								<li>
+									<a href="#" class="lista">BCP </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Universidad San Martin </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Barcelona </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Bayern Munich </a>
+								</li>
+								<li>
+									<a href="#" class="lista">Bayern Munich </a>
+								</li>
+								<li>
+									<a href="#" class="lista"> BBVA</a>
+								</li>
+								<li>
+									<a href="#" class="lista">Xbox </a>
+								</li>
+								<li>
+									<a href="#" class="lista">BCP </a>
+								</li>
+							</ul>
+						</div><!--Fin cuarta col-->
 					</div>
-				</div>
-				<div class="col-md-4 col-xs-16 cajas-blog">
-					<h6 class="text-center libros">Lunes 14 de Julio del 2015</h6>
-					<h4 class="text-center libros">¿Cual es tu favorito</h4>
-					<div class="row cajas-mini">
-						<div class="col-md-5 col-xs-16 ">
-							<img class="avatar" src="image/blog_avatar_03.jpg">
-						</div>
-						<div class="col-md-5 col-xs-16">
-							<h5 class="none">BLOG</h5>
-							<h6 class="none">Decimas cosas</h6>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-16 cajas-blog">
-					<h6 class="text-center libros">Lunes 14 de Julio del 2015</h6>
-					<h4 class="text-center libros">El gol de la muerte</h4>
-					<div class="row cajas-mini">
-						<div class="col-md-5 col-xs-16 ">
-							<img class="avatar" src="image/blog_avatar_01.jpg">
-						</div>
-						<div class="col-md-5 col-xs-16">
-							<h5 class="none">BLOG</h5>
-							<h6 class="none">LIBROS</h6>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-16 cajas-blog">
-					<h6 class="text-center libros">Lunes 14 de Julio del 2015</h6>
-					<h5 class="text-center libros caja-mala">Tengo las manos llenas...</h5>
-					<div class="row cajas-mini">
-						<div class="col-md-5 col-xs-16 ">
-							<img class="avatar" src="image/blog_avatar_02.jpg">
-						</div>
-						<div class="col-md-5 col-xs-16">
-							<h5 class="none">BLOG</h5>
-							<h6 class="none">Novelas</h6>
-						</div>
-					</div>
-				</div>
+				</div><!--fin col11-->
 			</div>
-		</div>
-	</section>
+		</div><!-- Fin Container PreviaFooter -->
+	</section><!--Fin PreviaFooter-->
 </body>
+</html>

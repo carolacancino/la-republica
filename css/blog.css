@@ -1,33 +1,165 @@
-.cajas-blog{
-	border: solid #BBB5B5 1px;
-	padding: 20px;
-	width: 225px;
-	height: 208px;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	
+
+header{
+	background-color: #E3E0E0;
 }
-.cajas-mini{
-	background-color: #BBB5B5;
-	padding-bottom: 5px;
-	height: 72px;
+.banner_top{
+	margin-top: 1%;
+    margin-left: 15%;
 }
-.avatar{
-	border:solid white 3px;
-	margin-top: 5px;
+.menu1{
+	margin-left: 31%;
+}
+.disabled {
+	display: table-cell;
+	margin-left: 20%;
+}
+.menu{
+	text-decoration: none;
+	color: #A9A9A9;
+	font-size: 10px;
+}
+/*iconos pequños*/
+i{
+	padding: 1%;
+}
+.facebook {
+	color: #006299;
 }
 
-.lo-ultimo{
-	color: #BBB5B5; 
+.twitter {
+	color: #00AEF1;
 }
-.libros{
-	padding: 5px;
+
+.google {
+	color: #D43E2F;
 }
-.none{
-	margin-bottom: -5px;
-	margin-left: 10px;
-	font-size: 12px;
+.mail{
+	color: #FFC104;
 }
-.caja-mala{
-	font-size: 15.2px;
+.antena{
+	color: #FB6B01;
 }
+.search{
+    display: inline-block;
+    width: 22%;
+    height: 10%;
+}
+/***La Republica***/
+.lrp{
+	padding-top: 2%;
+}
+.logo_larep{
+	    margin-top: 2%;
+}
+.colpe {
+    max-height: 65px;
+    margin-bottom: 3%;
+    border-width: 1px 1px 2px;
+    border-style: solid;
+    border-color: #8B8A8A #8B8A8A red;
+    border-bottom: 2px solid red;
+}
+.colpe2 {
+    max-height: 65px;
+    margin-bottom: 3%;
+    border-width: 1px 1px;
+    border-style: solid;
+    border-color: #8B8A8A;
+    border-radius: 7px;
+    margin-top: -20%;
+    margin-left: 4%;
+}
+.fedit{
+	 width: 17px;
+}
+.fautor{
+	    margin-top: -25%;
+    margin-left: 91%;
+}
+.dom{
+	    margin-left: 34%;
+}
+.lideresa{
+	font-size: 11px;
+    font-weight: bold;
+    padding: 3%;
+}
+/****Menu rojo**/
+.mrojo{
+	margin-top: 2%;
+}
+.dropdown-toggle{
+	font-weight: bold;
+    color: white;
+	font-size: 11px;
+	background-color: #B30404;
+}
+/***Menu Gris**/
+.gris {
+    background-color: rgb(230, 232, 233);
+    border-radius: 10px;
+    margin: 2%;
+        margin-top: 0%;
+}
+.mainGris {
+    margin-top: 1%;
+    display: inline-block;
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+}
+.negro {
+    background-color: black;
+    color: white;
+    border-radius: 10px 0 0 10px;
+    margin-left: -1%;
+        margin-top: 0%;
+}
+/***banner**/
+.banner_h{
+	margin-bottom: 2%;
+}
+
+
+/*previofooter*/
+.fondola_rep{
+    background-color: #DBDADA;
+    margin-top: 2%;
+}
+.logo_glr{
+    padding-top: 40%;
+}
+.glr{
+    font-size: 18px;
+}
+.direc{
+    margin: 0 0 0px;
+}
+.der{
+    padding: 3%;
+    font-size: 12px;
+}
+.lineaRecta{
+    margin-left: 27%;
+    margin-top: 4%;
+    width: 1px;
+    height: 325px;
+    border: 1px inset #fcf8e3;;
+    background-color: #b3b3b3;
+}
+ul.listado{
+    padding-top: 17%;
+    font-size: 10px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.lista{
+    color: #757575;
+}
+.divs{
+    margin-left: 27%;
+    position: relative;
+    margin-top: -36%;
+}
+/****FinFooter***/
